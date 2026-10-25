@@ -1,0 +1,86 @@
+# Copper Retirement Dataset: Data Dictionary
+
+Publisher: Metro Colo Advisory (https://metrocoloadvisory.com/copper-retirement-data/)
+Companion tracker: https://metrocoloadvisory.com/copper-retirement-tracker/
+Data as of: October 24, 2026
+License: CC BY 4.0. Free to use and cite with a link to https://metrocoloadvisory.com/copper-retirement-data/
+
+Dates use the format YYYY-MM-DD. Where a source gives only a month, the date is YYYY-MM. Multiple values in one cell are separated by semicolons. States use two-letter postal codes, with DC for the District of Columbia.
+
+## copper-retirement-carrier-filings-oct2026.csv
+One row per carrier filing, approval or action that affects when copper landline (POTS) service can be discontinued.
+
+| Column | Meaning |
+|---|---|
+| filing_id | Short ID used across the files (for example ATT-18STATE) |
+| carrier | Carrier or carrier group that filed |
+| filing_type | Type of filing, usually a Section 214 discontinuance application |
+| services | Services covered, as described in the source |
+| states | States covered, as postal codes. Blank when the source does not list them |
+| area | Wire centers or areas covered, as described in the source |
+| filed_date | Date the carrier filed |
+| fcc_public_notice | FCC public notice number and date, when one was found |
+| fcc_docket | FCC WC docket number, when one was found |
+| automatic_grant_date | Date the application would be granted automatically absent FCC action |
+| decision | What happened: granted automatically, granted, removed from automatic grant, pending |
+| decision_date | Date of that decision |
+| earliest_discontinuance | Earliest date service can be discontinued under the filing or customer notices |
+| status_2026_10_24 | Status as of October 24, 2026 |
+| scale | Customers, lines, locations or wire centers, as reported |
+| source_name | Source of the row |
+| source_url | Source link. Multiple links separated by " ; " |
+| notes | Caveats and detail |
+
+## copper-retirement-state-carrier-status-oct2026.csv
+One row per state and carrier filing. A state appears once for each logged AT&T or Verizon filing that covers it.
+
+| Column | Meaning |
+|---|---|
+| state_code | Two-letter postal code |
+| state | State name |
+| carrier | AT&T or Verizon |
+| filing_id | Links to copper-retirement-carrier-filings-oct2026.csv |
+| status | Approved, Under FCC review, or Filed, pending |
+| approval_date | Date of FCC approval, if approved |
+| earliest_discontinuance | Earliest discontinuance date for that filing |
+| notes | Overlapping filings and caveats |
+
+## copper-retirement-state-summary-oct2026.csv
+One row per state plus DC (51 rows), built for maps.
+
+| Column | Meaning |
+|---|---|
+| state_code | Two-letter postal code |
+| state | State name |
+| att_status | Approved, or None logged |
+| verizon_status | Approved, Under FCC review, Filed, pending, or None logged |
+| map_category | Combined category used on the map |
+| earliest_approved_discontinuance | Earliest date from an approved filing in that state |
+
+## copper-retirement-att-notices-per-year-oct2026.csv
+AT&T copper retirement notices per year, 2019 to 2025.
+
+| Column | Meaning |
+|---|---|
+| year | Calendar year |
+| att_copper_retirement_notices | Number of notices in the industry tally |
+| source_name / source_url | Source |
+| notes | This is an industry tally, not an FCC count |
+
+## copper-retirement-tracker-log-oct2026.csv
+Every development logged on the tracker page.
+
+| Column | Meaning |
+|---|---|
+| logged_date | Date Metro Colo Advisory added the entry |
+| event_date | Date the event happened (or was reported) |
+| event_date_precision | day, month, or reported (date of the report, not the event) |
+| carrier_or_agency | Who acted |
+| event | What happened |
+| source_name / source_url | Source |
+
+## Important limits
+- Approvals cover specific wire centers, not every line in a state. A carrier's notice letter decides whether a site is affected.
+- A blank or "None logged" state means no AT&T or Verizon approval or request is logged here, not that copper service there is safe. Lumen, Fidium and other carriers publish their own notices.
+- AT&T's business-line application under FCC public notice DA 26-1075 covers 34 states and DC, but the sources reviewed do not list the states, so it is not mapped by state.
+- Figures come from the linked primary and press sources. Counts of states are Metro Colo Advisory calculations.

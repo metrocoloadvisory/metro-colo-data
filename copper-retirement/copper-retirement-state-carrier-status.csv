@@ -1,0 +1,47 @@
+state_code,state,carrier,filing_id,status,approval_date,earliest_discontinuance,notes
+AL,Alabama,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,Also in DA 26-861 business-line application (on or after 2026-11-15); Also in DA 26-861 residential application (on or after 2026-09-30)
+AZ,Arizona,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+AR,Arkansas,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,Also in DA 26-861 business-line application (on or after 2026-11-15)
+CA,California,AT&T,ATT-CA-2026,Approved; preemption petition pending,2026-06-29,2027-06-01,Portions of 360 wire centers
+CA,California,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+CT,Connecticut,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+DE,Delaware,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+DC,District of Columbia,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+FL,Florida,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+FL,Florida,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices
+GA,Georgia,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,Also in DA 26-861 business-line application (on or after 2026-11-15)
+IL,Illinois,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+IN,Indiana,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+IN,Indiana,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices
+KS,Kansas,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+KY,Kentucky,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+LA,Louisiana,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,Also in DA 26-861 business-line application (on or after 2026-11-15); Also in DA 26-861 residential application (on or after 2026-09-30)
+MD,Maryland,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+MA,Massachusetts,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+MI,Michigan,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+MI,Michigan,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+MN,Minnesota,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices
+MS,Mississippi,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,Also in DA 26-861 residential application (on or after 2026-09-30)
+MO,Missouri,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+NE,Nebraska,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices
+NV,Nevada,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices
+NJ,New Jersey,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+NM,New Mexico,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+NY,New York,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+NC,North Carolina,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+NC,North Carolina,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices
+OH,Ohio,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+OH,Ohio,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+OK,Oklahoma,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+PA,Pennsylvania,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+RI,Rhode Island,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+SC,South Carolina,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,Also in DA 26-861 business-line application (on or after 2026-11-15)
+SC,South Carolina,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+TN,Tennessee,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,Also in DA 26-861 business-line application (on or after 2026-11-15)
+TX,Texas,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+TX,Texas,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices
+UT,Utah,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+VA,Virginia,Verizon,VZ-9STATE,Under FCC review,,,Removed from automatic grant 2026-09-25
+WV,West Virginia,Verizon,VZ-SEPT-9STATE-DC,"Filed, pending",,2026-11-30,Proposed date; no FCC public notice found
+WI,Wisconsin,AT&T,ATT-18STATE,Approved,2026-01-12,2026-11-15,
+WI,Wisconsin,Verizon,VZ-8STATE,Approved,2026-08-21,2026-11-16,Date per customer notices

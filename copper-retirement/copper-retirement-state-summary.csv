@@ -1,0 +1,52 @@
+state_code,state,att_status,verizon_status,map_category,earliest_approved_discontinuance
+AL,Alabama,Approved,None logged,AT&T approved,2026-11-15
+AK,Alaska,None logged,None logged,Nothing logged,
+AZ,Arizona,None logged,Under FCC review,Verizon pending,
+AR,Arkansas,Approved,None logged,AT&T approved,2026-11-15
+CA,California,Approved,"Filed, pending","AT&T approved, Verizon pending",2027-06-01
+CO,Colorado,None logged,None logged,Nothing logged,
+CT,Connecticut,None logged,"Filed, pending",Verizon pending,
+DE,Delaware,None logged,Under FCC review,Verizon pending,
+DC,District of Columbia,None logged,"Filed, pending",Verizon pending,
+FL,Florida,Approved,Approved,AT&T and Verizon approved,2026-11-15
+GA,Georgia,Approved,None logged,AT&T approved,2026-11-15
+HI,Hawaii,None logged,None logged,Nothing logged,
+ID,Idaho,None logged,None logged,Nothing logged,
+IL,Illinois,None logged,"Filed, pending",Verizon pending,
+IN,Indiana,Approved,Approved,AT&T and Verizon approved,2026-11-15
+IA,Iowa,None logged,None logged,Nothing logged,
+KS,Kansas,Approved,None logged,AT&T approved,2026-11-15
+KY,Kentucky,Approved,None logged,AT&T approved,2026-11-15
+LA,Louisiana,Approved,None logged,AT&T approved,2026-11-15
+ME,Maine,None logged,None logged,Nothing logged,
+MD,Maryland,None logged,"Filed, pending",Verizon pending,
+MA,Massachusetts,None logged,"Filed, pending",Verizon pending,
+MI,Michigan,Approved,"Filed, pending","AT&T approved, Verizon pending",2026-11-15
+MN,Minnesota,None logged,Approved,Verizon approved,2026-11-16
+MS,Mississippi,Approved,None logged,AT&T approved,2026-11-15
+MO,Missouri,Approved,None logged,AT&T approved,2026-11-15
+MT,Montana,None logged,None logged,Nothing logged,
+NE,Nebraska,None logged,Approved,Verizon approved,2026-11-16
+NV,Nevada,None logged,Approved,Verizon approved,2026-11-16
+NH,New Hampshire,None logged,None logged,Nothing logged,
+NJ,New Jersey,None logged,Under FCC review,Verizon pending,
+NM,New Mexico,None logged,Under FCC review,Verizon pending,
+NY,New York,None logged,"Filed, pending",Verizon pending,
+NC,North Carolina,Approved,Approved,AT&T and Verizon approved,2026-11-15
+ND,North Dakota,None logged,None logged,Nothing logged,
+OH,Ohio,Approved,Under FCC review,"AT&T approved, Verizon pending",2026-11-15
+OK,Oklahoma,Approved,None logged,AT&T approved,2026-11-15
+OR,Oregon,None logged,None logged,Nothing logged,
+PA,Pennsylvania,None logged,"Filed, pending",Verizon pending,
+RI,Rhode Island,None logged,Under FCC review,Verizon pending,
+SC,South Carolina,Approved,Under FCC review,"AT&T approved, Verizon pending",2026-11-15
+SD,South Dakota,None logged,None logged,Nothing logged,
+TN,Tennessee,Approved,None logged,AT&T approved,2026-11-15
+TX,Texas,Approved,Approved,AT&T and Verizon approved,2026-11-15
+UT,Utah,None logged,Under FCC review,Verizon pending,
+VT,Vermont,None logged,None logged,Nothing logged,
+VA,Virginia,None logged,Under FCC review,Verizon pending,
+WA,Washington,None logged,None logged,Nothing logged,
+WV,West Virginia,None logged,"Filed, pending",Verizon pending,
+WI,Wisconsin,Approved,Approved,AT&T and Verizon approved,2026-11-15
+WY,Wyoming,None logged,None logged,Nothing logged,
