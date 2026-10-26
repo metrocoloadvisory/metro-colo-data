@@ -1,0 +1,5 @@
+pue,description,it_load_mwh_per_year,facility_mwh_per_year,price_usd_per_mwh,annual_cost_usd,sources,data_as_of
+1.0,Theoretical floor,8760,8760,91.7,803292,https://www.eia.gov/TOTALENERGY/data/monthly/pdf/sec9_10.pdf https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf,2026-10-24
+1.2,"Modern, well-run facility",8760,10512,91.7,963950,https://www.eia.gov/TOTALENERGY/data/monthly/pdf/sec9_10.pdf https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf,2026-10-24
+1.52,Industry average (Uptime 2026),8760,13315,91.7,1221004,https://www.eia.gov/TOTALENERGY/data/monthly/pdf/sec9_10.pdf https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf,2026-10-24
+1.8,Older or partly loaded facility,8760,15768,91.7,1445926,https://www.eia.gov/TOTALENERGY/data/monthly/pdf/sec9_10.pdf https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf,2026-10-24

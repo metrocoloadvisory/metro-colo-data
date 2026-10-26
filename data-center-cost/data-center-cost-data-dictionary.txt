@@ -1,0 +1,40 @@
+DATA CENTER COST 2026: DATA DICTIONARY
+Publisher: Metro Colo Advisory, https://metrocoloadvisory.com/data-center-cost/
+Data as of: October 24, 2026. License: CC BY 4.0.
+
+FILE 1: data-center-cost-figures.csv
+One row per published figure on the Data Center Cost 2026 page.
+figure_id: stable ID (DCC-001 and up). IDs are kept across updates.
+category: Build, Lease, Run, AI hardware, Build vs lease, Connectivity, Market or Timelines.
+metric: what the figure measures.
+value: the figure as published, in words.
+value_low / value_high: numeric value, or the low and high ends of a range, in the unit shown.
+unit: unit for value_low and value_high.
+geography: market the figure covers.
+period: date or period the figure describes.
+source_name / source_url: the published source. Two URLs are separated by a space.
+mca_calculation: "yes" if the figure is Metro Colo Advisory arithmetic on the cited sources (method in notes), "no" if published by the source as shown.
+notes: method, caveats and related figures.
+data_as_of: date the row was last checked.
+
+FILE 2: data-center-power-cost-by-pue.csv
+Annual electricity cost to run 1 MW of IT load around the clock at different PUE levels.
+pue: power usage effectiveness (facility power divided by IT power).
+it_load_mwh_per_year: 1 MW x 8,760 hours.
+facility_mwh_per_year: IT load times PUE.
+price_usd_per_mwh: US average industrial electricity price, June 2026 (EIA, 9.17 cents per kWh).
+annual_cost_usd: facility MWh times price. MCA calculation.
+
+FILE 3: data-center-construction-cost-per-watt.csv
+Construction cost per watt of IT capacity by market, Turner & Townsend Data Centre Construction Cost Index 2026-27.
+usd_per_watt_low / usd_per_watt_high: same value when a single figure is published.
+Construction only; excludes land and site costs, which the Cushman & Wakefield all-in figure includes.
+
+FILE 4: data-center-lease-rate-change-by-size.csv
+Change in average asking rates by requirement size, first half of 2026, CBRE.
+asking_rate_change_percent: percent change in H1 2026.
+
+LIMITS
+Published averages and ranges, not quotes. Real projects and leases vary widely by market, density, term and timing.
+GPU and hardware prices move quickly; check the period column.
+All-in development cost (Cushman & Wakefield) and construction-only cost (Turner & Townsend) measure different things and should not be compared directly.

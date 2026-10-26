@@ -1,0 +1,6 @@
+market,country,usd_per_watt_low,usd_per_watt_high,notes,source_name,source_date,source_url,data_as_of
+Tokyo,Japan,18.28,18.28,Most expensive market worldwide,Turner & Townsend Data Centre Construction Cost Index 2026-27,2026-10-22,https://www.turnerandtownsend.com/insights/data-centre-construction-cost-index-2026-27/,2026-10-24
+Osaka,Japan,17.15,17.15,Second most expensive,Turner & Townsend Data Centre Construction Cost Index 2026-27,2026-10-22,https://www.turnerandtownsend.com/insights/data-centre-construction-cost-index-2026-27/,2026-10-24
+"United States, AI-specific facilities",United States,14.0,16.0,Most advanced AI-specific builds,Turner & Townsend Data Centre Construction Cost Index 2026-27,2026-10-22,https://www.turnerandtownsend.com/insights/data-centre-construction-cost-index-2026-27/,2026-10-24
+Chicago,United States,13.28,13.28,11th most expensive market,Turner & Townsend Data Centre Construction Cost Index 2026-27,2026-10-22,https://reports.turnerandtownsend.com/data-centre-construction-cost-index-2026-us/cost-trends/,2026-10-24
+"United States, country average",United States,12.08,12.08,All US markets,Turner & Townsend Data Centre Construction Cost Index 2026-27,2026-10-22,https://www.turnerandtownsend.com/insights/data-centre-construction-cost-index-2026-27/,2026-10-24
