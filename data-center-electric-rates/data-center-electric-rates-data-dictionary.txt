@@ -1,0 +1,95 @@
+DATA CENTER ELECTRIC RATES BY UTILITY: DATA DICTIONARY
+Metro Colo Advisory, data as of October 29, 2026. License: CC BY 4.0.
+
+File: data-center-electric-rates-by-utility.csv (one row per filing or proceeding, 105 rows)
+
+COLUMNS
+
+row_id
+  Stable row ID (R001 onward). Gaps are rows removed after checking.
+
+state
+  Two-letter state code, or "Multi" for multistate filings.
+
+utility
+  Utility or utilities covered by the filing.
+
+parent_company
+  Parent company, where there is one.
+
+filing_name
+  Name or short description of the filing.
+
+filing_type
+  Kind of filing: large-load tariff, special contract, general rate case with a large-load class, rulemaking, generic proceeding, legislation.
+
+commission
+  Regulator or body handling the filing.
+
+docket_number
+  Docket, case or cause number as published.
+
+docket_url
+  Link to the docket or the best available source for it.
+
+status
+  Status as of the update date, in plain words.
+
+filed_date
+  Date filed (YYYY-MM-DD or YYYY-MM), where known.
+
+decision_date
+  Date decided, where decided.
+
+next_date
+  Next scheduled vote, deadline or effective date.
+
+next_date_event
+  What happens on next_date.
+
+residential_bill_impact_as_stated
+  Household bill figure exactly as stated, with who stated it. Not calculated by us.
+
+bill_impact_source_url
+  Source for the bill figure.
+
+customer_protections
+  Terms that keep large-customer costs with the large customer: thresholds, minimum payments, contract length, collateral, exit fees.
+
+dc_load_figure_mw
+  Data center or large-load figure in MW as reported (GW x 1,000). Not comparable across utilities without reading dc_load_term_used.
+
+dc_load_term_used
+  The utility's own term for the figure (signed, pipeline, queue, forecast).
+
+dc_load_as_of
+  Date of the load figure.
+
+dc_load_source_url
+  Source for the load figure.
+
+system_peak_mw
+  Utility system peak in MW, where sourced.
+
+system_peak_year
+  Year of the peak.
+
+system_peak_source_url
+  Source for the peak.
+
+notes
+  Context, caveats and corrections.
+
+confidence
+  high = confirmed in a primary document; medium = confirmed in secondary coverage only.
+
+LIMITS OF THE DATA
+- Bill impacts are copied exactly as stated by the utility, regulator or news source named in bill_impact_source_url. They are not calculated by Metro Colo Advisory and often cover a whole rate case, not the data center portion alone.
+- Data center load figures use each utility's own term (signed, pipeline, queue, forecast). They are not comparable across utilities without reading dc_load_term_used.
+- System peaks are for the utility's whole system where that is how the source reports them, which can span several states.
+- Rows marked confidence = medium are confirmed in secondary coverage only, not yet in a primary filing.
+- Status reflects the update date. Check docket_url for the latest.
+- Gaps in row_id are rows removed after checking.
+
+HOW TO CITE
+Metro Colo Advisory, "Data Center Electric Rates by Utility," https://metrocoloadvisory.com/data-center-electric-rates/, data as of October 29, 2026. License: CC BY 4.0.
